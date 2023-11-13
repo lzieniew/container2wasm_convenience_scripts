@@ -1,4 +1,4 @@
-# container2wasm_convenience_scripts
+# container2wasm convenience scripts
 Scripts that are useful to use with container2wasm, for example to convert Dockerfile into ready to run webpage without intermediate steps
 
 ### dockerfile_to_website.sh
