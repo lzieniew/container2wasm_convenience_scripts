@@ -1,0 +1,17 @@
+# Use an official Alpine Linux as a parent image
+FROM alpine:latest
+
+# Install Neovim
+RUN apk add --no-cache neovim
+RUN apk add --no-cache vim
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the current directory contents into the container at /usr/src/app
+COPY . .
+
+# Set the default command to execute
+# when creating a new container
+CMD ["sh"]
+
